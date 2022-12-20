@@ -1,0 +1,12 @@
+c_compiler:
+- vs2019
+channel_sources:
+- tiledb,conda-forge,defaults
+channel_targets:
+- tiledb main
+gsl:
+- '2.7'
+target_platform:
+- win-64
+zlib:
+- '1.2'
