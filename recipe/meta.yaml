@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 build:
-  number: 2
+  number: 3
 
 source:
   url: https://github.com/samtools/bcftools/releases/download/{{ version }}/bcftools-{{ version }}.tar.bz2
@@ -55,3 +55,8 @@ extra:
     - biotools:bcftools
     - usegalaxy-eu:bcftools_merge
     - doi:10.1093/bioinformatics/btp352
+
+extra:
+  recipe-maintainers:
+    - shelnutt2
+    - jdblischak

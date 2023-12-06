@@ -1,11 +1,11 @@
-About bcftools
-==============
+About bcftools-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/TileDB-Inc/bcftools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/samtools/bcftools
 
 Package license: GPL
-
-Feedstock license: [BSD-3-Clause](https://github.com/TileDB-Inc/bcftools-feedstock/blob/main/LICENSE.txt)
 
 Summary: BCFtools is a set of utilities that manipulate variant calls in the Variant Call Format (VCF) and its binary counterpart BCF. All commands work transparently with both VCFs and BCFs, both uncompressed and BGZF-compressed.  Most commands accept VCF, bgzipped VCF and BCF with filetype detected automatically even when streaming from a pipe. Indexed VCF and BCF will work in all situations. Un-indexed VCF and BCF and streams will work in most, but not all situations.
 
@@ -137,4 +137,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@jdblischak](https://github.com/jdblischak/)
+* [@shelnutt2](https://github.com/shelnutt2/)
 
